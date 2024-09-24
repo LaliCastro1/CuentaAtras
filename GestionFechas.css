@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+div {
+    background-color: white; /* Fondo blanco para el contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    text-align: center; /* Centrar texto */
+}
+
+p {
+    font-size: 24px; /* Tamaño de fuente más grande */
+    margin: 10px 0; /* Espaciado vertical */
+}
+
+input[type="date"] {
+    padding: 10px; /* Espaciado interno */
+    border: 2px solid #007BFF; /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+input[type="date"]:focus {
+    outline: none; /* Sin contorno */
+    border-color: #0056b3; /* Borde azul más oscuro al enfocar */
+}
